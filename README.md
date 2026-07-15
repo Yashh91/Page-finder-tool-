@@ -7,7 +7,7 @@ Before running your script, do:
 sudo apt update
 ```
 
-## 🐍 Step 2: Check Python Installation
+## Step 2: Check Python Installation
 
 Kali usually has Python pre-installed:
 
@@ -20,12 +20,12 @@ If not installed:
 ```
 sudo apt install python3 -y
 ```
-## 📄 Step 3: Create Python file
+## Step 3: Create Python file
 
 ```
 nano page_finder.py
 ```
-## ✍️ Step 4: Paste this script
+## Step 4: Paste this script
 
 ```
 import requests
@@ -67,17 +67,18 @@ for path in paths:
         print(f"[ERROR] {full_url} - {e}")
 
 ```
-## 💾 Step 5: Save and exit
+##  Step 5: Save and exit
 
 - Press `CTRL + X`
 - Press `Y`
 - Press `Enter`
 - 
-## ▶️ Step 6: Run the tool
+##  Step 6: Run the tool
 
 ```
 python3 page_finder.py
 ```
+## Output:
 <img width="1236" height="149" alt="Screenshot 2026-07-08 025159" src="https://github.com/user-attachments/assets/f1e6f517-a6c2-484b-8ef3-84086ec7439c" />
 
 
