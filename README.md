@@ -1,5 +1,5 @@
 # Page-finder-tool
-# ✅ 1. Prepare your environment 
+## ✅ 1. Prepare your environment (correct first step) 
 
 Before running your script, do:
 
@@ -7,7 +7,7 @@ Before running your script, do:
 sudo apt update
 ```
 
-# 🐍 Step 2: Check Python Installation
+## 🐍 Step 2: Check Python Installation
 
 Kali usually has Python pre-installed:
 
