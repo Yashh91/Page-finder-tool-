@@ -79,4 +79,5 @@ for path in paths:
 python3 page_finder.py
 ```
 
-!Screenshot 2026-07-08 025159.png
+<img width="1397" height="167" alt="Screenshot 2026-07-08 025159" src="https://github.com/user-attachments/assets/da712090-a31e-4614-9f3f-21c8afc87e5a" />
+
