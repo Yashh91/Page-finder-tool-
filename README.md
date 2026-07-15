@@ -78,6 +78,7 @@ for path in paths:
 ```
 python3 page_finder.py
 ```
-<img width="1032" height="127" alt="Screenshot 2026-07-08 025159" src="https://github.com/user-attachments/assets/acf342b6-c166-4e9f-a5dc-e0e4f6da2cbd" />
+<img width="1236" height="149" alt="Screenshot 2026-07-08 025159" src="https://github.com/user-attachments/assets/f1e6f517-a6c2-484b-8ef3-84086ec7439c" />
+
 
 
