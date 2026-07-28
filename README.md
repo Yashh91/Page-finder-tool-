@@ -1,8 +1,6 @@
-# 🔎 Page Finder
+## 🔎 Page Finder
 
 Page Finder is a Python command-line tool that helps discover common web pages and directories on a website using a wordlist. It sends HTTP GET requests to each path and displays the HTTP response status, making it useful for learning web enumeration techniques.
-
-> **Note:** This tool is intended for educational purposes and authorized security testing only.
 
 ---
 
@@ -21,6 +19,9 @@ Page Finder is a Python command-line tool that helps discover common web pages a
 
 - Python 3.8 or higher
 - Requests library
+```
+
+---
 
 ##  🚀 Installation
 
