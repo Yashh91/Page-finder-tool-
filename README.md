@@ -15,15 +15,15 @@ Page Finder is a Python command-line tool that helps discover common web pages a
 - Cross-platform (Windows, Linux, macOS)
 
 
-##  Requirements
+## Requirements
 
 - Python 3.8 or higher
 - Requests library
+```bash
 ```
-
 ---
 
-##  🚀 Installation
+## Installation
 
 Clone the repository:
 
