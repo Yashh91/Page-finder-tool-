@@ -19,7 +19,7 @@ Page Finder is a Python command-line tool that helps discover common web pages a
 
 - Python 3.8 or higher
 - Requests library
-```bash
+```
 ```
 ---
 
