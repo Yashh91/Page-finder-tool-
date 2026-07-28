@@ -1,85 +1,131 @@
-# Page-finder-tool
-## ✅ 1. Prepare your environment (correct first step) 
+# 🔎 Page Finder
 
-Before running your script, do:
+Page Finder is a Python command-line tool that helps discover common web pages and directories on a website using a wordlist. It sends HTTP GET requests to each path and displays the HTTP response status, making it useful for learning web enumeration techniques.
+
+> **Note:** This tool is intended for educational purposes and authorized security testing only.
+
+---
+
+## ✨ Features
+
+- Discover common web pages and directories
+- Custom target URL
+- Custom wordlist support
+- Displays HTTP response status codes
+- Lightweight and easy to use
+- Beginner-friendly Python code
+- Cross-platform (Windows, Linux, macOS)
+
+
+## 📦 Requirements
+
+- Python 3.8 or higher
+- Requests library
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Yashh91/Page-Finder.git
+```
+
+Move into the project directory:
+
+```bash
+cd Page-Finder
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+## ▶️ Usage
+
+Scan a website using the default wordlist:
+
+```bash
+python page_finder.py -u https://example.com
+```
+
+Use a custom wordlist:
+
+```bash
+python page_finder.py -u https://example.com -w custom_wordlist.txt
+```
+
+---
+
+## 📋 Example Output
+
+```text
+=========================================================
+                     PAGE FINDER
+---------------------------------------------------------
+        Find Common Web Pages and Directories
+---------------------------------------------------------
+                 Developed by Yashh91
+=========================================================
+
+[+] Target    : https://example.com
+[+] Wordlist  : wordlist.txt
+
+[+] Scanning...
+
+[FOUND] https://example.com/admin
+[FOUND] https://example.com/login
+[FORBIDDEN] https://example.com/dashboard
+```
+
+---
+
+## 📸 Screenshots
+
+### Tool Banner
+
+> Add your screenshot here
 
 ```
-sudo apt update
+screenshots/banner.png
 ```
 
-## Step 2: Check Python Installation
+### Scan Result
 
-Kali usually has Python pre-installed:
-
-```
-python3 --version
-```
-
-If not installed:
+> Add your screenshot here
 
 ```
-sudo apt install python3 -y
+screenshots/result.png
 ```
-## Step 3: Create Python file
 
-```
-nano page_finder.py
-```
-## Step 4: Paste this script
+---
 
-```
-import requests
+## 📖 How It Works
 
-# Common pages list
-paths = [
-    "admin",
-    "admin/login",
-    "login",
-    "dashboard",
-    "user",
-    "admin.php",
-    "login.php",
-    "cpanel",
-    "admin/dashboard"
-]
+1. Reads paths from the wordlist.
+2. Combines each path with the target URL.
+3. Sends an HTTP GET request.
+4. Receives the server response.
+5. Displays the HTTP status for each page.
 
-# Take input from user
-url = input("Enter website URL (e.g. https://example.com): ").strip()
+---
 
-# Remove trailing slash
-if url.endswith("/"):
-    url = url[:-1]
+## 📌 HTTP Status Codes
 
-print("\n[+] Scanning for pages...\n")
+| Status | Description |
+|:------:|-------------|
+| 200 | Page found |
+| 301 | Permanent redirect |
+| 302 | Temporary redirect |
+| 403 | Page exists but access is forbidden |
+| 404 | Page not found |
 
-for path in paths:
-    full_url = f"{url}/{path}"
+---
 
-    try:
-        response = requests.get(full_url, timeout=5)
+## 📄 License
 
-        if response.status_code == 200:
-            print(f"[FOUND] {full_url}")
-        else:
-            print(f"[NOT FOUND] {full_url} (Status: {response.status_code})")
+This project is licensed under the MIT License.
 
-    except requests.exceptions.RequestException as e:
-        print(f"[ERROR] {full_url} - {e}")
-
-```
-##  Step 5: Save and exit
-
-- Press `CTRL + X`
-- Press `Y`
-- Press `Enter`
-- 
-##  Step 6: Run the tool
-
-```
-python3 page_finder.py
-```
-## Output:
-<img width="1236" height="149" alt="Screenshot 2026-07-08 025159" src="https://github.com/user-attachments/assets/f1e6f517-a6c2-484b-8ef3-84086ec7439c" />
-
-
-
+---
