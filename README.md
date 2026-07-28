@@ -1,4 +1,4 @@
-# 🔎 Page Finder
+#  Page Finder
 
 Page Finder is a Python command-line tool that helps discover common web pages and directories on a website using a wordlist. It sends HTTP GET requests to each path and displays the HTTP response status, making it useful for learning web enumeration techniques.
 
@@ -6,7 +6,7 @@ Page Finder is a Python command-line tool that helps discover common web pages a
 
 ---
 
-## ✨ Features
+##  Features
 
 - Discover common web pages and directories
 - Custom target URL
@@ -17,12 +17,12 @@ Page Finder is a Python command-line tool that helps discover common web pages a
 - Cross-platform (Windows, Linux, macOS)
 
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.8 or higher
 - Requests library
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository:
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 ```
 
 ---
-## ▶️ Usage
+##  Usage
 
 Scan a website using the default wordlist:
 
@@ -59,7 +59,7 @@ python page_finder.py -u https://example.com -w custom_wordlist.txt
 
 ---
 
-## 📋 Example Output
+##  Example Output
 
 ```text
 =========================================================
@@ -82,7 +82,7 @@ python page_finder.py -u https://example.com -w custom_wordlist.txt
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Tool Banner
 
@@ -102,7 +102,7 @@ screenshots/result.png
 
 ---
 
-## 📖 How It Works
+##  How It Works
 
 1. Reads paths from the wordlist.
 2. Combines each path with the target URL.
@@ -112,7 +112,7 @@ screenshots/result.png
 
 ---
 
-## 📌 HTTP Status Codes
+##  HTTP Status Codes
 
 | Status | Description |
 |:------:|-------------|
@@ -124,7 +124,7 @@ screenshots/result.png
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
