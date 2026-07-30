@@ -92,9 +92,6 @@ python page_finder.py -u https://example.com -w custom_wordlist.txt
 
 <img width="1012" height="516" alt="Screenshot 2026-07-31 033615" src="https://github.com/user-attachments/assets/36a92bb4-f2d6-4f20-932e-55f4fb3f2e32" />
 
-
-```
-
 ---
 
 ##  How It Works
