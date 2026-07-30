@@ -88,7 +88,8 @@ python page_finder.py -u https://example.com -w custom_wordlist.txt
 > Add your screenshot here
 
 ```
-screenshots/banner.png
+<img width="832" height="275" alt="image" src="https://github.com/user-attachments/assets/502eabd6-6153-4a65-bc80-f918bbbc0734" />
+
 ```
 
 ### Scan Result
@@ -96,7 +97,8 @@ screenshots/banner.png
 > Add your screenshot here
 
 ```
-screenshots/result.png
+<img width="1012" height="516" alt="image" src="https://github.com/user-attachments/assets/1fadd0ef-930e-4cc4-b23e-4d7e493b1686" />
+
 ```
 
 ---
