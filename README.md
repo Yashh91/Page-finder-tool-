@@ -85,18 +85,11 @@ python page_finder.py -u https://example.com -w custom_wordlist.txt
 
 ### Tool Banner
 
-> Add your screenshot here
-
-```
 <img width="832" height="275" alt="image" src="https://github.com/user-attachments/assets/502eabd6-6153-4a65-bc80-f918bbbc0734" />
 
-```
 
 ### Scan Result
 
-> Add your screenshot here
-
-```
 <img width="1012" height="516" alt="Screenshot 2026-07-31 033615" src="https://github.com/user-attachments/assets/36a92bb4-f2d6-4f20-932e-55f4fb3f2e32" />
 
 
