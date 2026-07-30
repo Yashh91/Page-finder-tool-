@@ -97,7 +97,8 @@ python page_finder.py -u https://example.com -w custom_wordlist.txt
 > Add your screenshot here
 
 ```
-<img width="1012" height="516" alt="image" src="https://github.com/user-attachments/assets/1fadd0ef-930e-4cc4-b23e-4d7e493b1686" />
+<img width="1012" height="516" alt="Screenshot 2026-07-31 033615" src="https://github.com/user-attachments/assets/36a92bb4-f2d6-4f20-932e-55f4fb3f2e32" />
+
 
 ```
 
